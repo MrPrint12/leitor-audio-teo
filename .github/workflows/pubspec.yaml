@@ -1,0 +1,17 @@
+
+name: teo_print_audio_player
+description: A simple audio player app by TEO PRINT.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^4.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sample_audio.mp3
